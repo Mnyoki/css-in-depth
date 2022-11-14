@@ -37,7 +37,7 @@ ul
     font-size: .8em;
 }
 
-ul ul
+ul ul /* avoid overiding variable, find the best fit.*/
 {
     font-size: 1em;
 }

@@ -27,7 +27,7 @@ body
 .panel > h2, .pannel h3
 {
     margin-top: 0;
-    font-size: 5.2em;
+    font-size: 1.2em;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -48,7 +48,7 @@ blockquote > a
     }
     .panel.large
     {
-        font-size: 2.2em;
+        font-size: 1.2em;
     }
 }
 

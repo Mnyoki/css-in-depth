@@ -10,3 +10,21 @@ avoids
 2. !important
 3. ems for font-size
 4. shorthand propeties.
+
+
+short precise suggestion.
+
+rems -> font-size;
+pixes -> border;
+em -> padding & margin & border-radius;
+percentage -> container width;
+
+IT DEPENDS.
+
+responsive screens
+
+300px (top left), 800px (top right), 1440px (bottom).
+
+unitless values. -> line-hight, z-index, opacity, font-weight  | they can also be used anywhere a length unit (px, em or rem)
+
+!important = A unitless 0 can only be used for lenght values and percentages ie: padding, margin, border, and widths.
