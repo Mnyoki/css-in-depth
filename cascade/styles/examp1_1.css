@@ -1,0 +1,96 @@
+body
+{
+    font-family: serif;
+}
+
+h1
+{
+    margin-bottom: 10px;
+}
+/*
+shorthand properties are crusial in a way that you ommit any in the sequence and the ommited value is then chained to default (bug like)
+
+.title
+{
+    font: 32px Helvetica, Arial, sans-serif;
+}
+*/
+
+.nav
+{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li
+{
+    display: inline-block;
+}
+
+.nav a
+{
+    color: white;
+    background-color: #13a4a4;
+    border-radius: 2px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.nav .featured
+{
+    background-color: orange;
+    box-shadow: 4px 2px #b9bbbb;
+}
+
+
+/* link LoVe/H-Ate - link | visited | hover | active */
+a:link
+{
+    color: blue;
+    text-decoration: none;
+}
+
+li a:visited
+{
+    color: purple;
+}
+
+li a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+li a:active
+{
+    color: red;
+}
+
+.padded
+{
+    font-size: 16px;
+    padding: 1em;
+}
+
+/*inheritable components
+color, font, font-family, font-size, font-weight, font-variant, font-style, inline-height, letter-spacing, text-align, text-ident, text-transformation, white-space and word spacing.
+
+list-style, list-style-type, list-style-position, list-style-image.
+
+border-collapse, border-spacing*/
+
+.footer
+{
+    color: #666;
+    background-color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a 
+{
+    color: initial;
+    text-decoration: underline;
+}

@@ -1,0 +1,65 @@
+:root
+{
+    font-size: 0.875em;
+}
+
+body
+{
+    background-color: bisque;
+}
+
+.pannel
+{
+    margin-top: 0;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+
+.panel
+{
+    margin-top: 0.3125em;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 1px solid #999;
+}
+
+.panel > h2, .pannel h3
+{
+    margin-top: 0;
+    font-size: 5.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+blockquote > a
+{
+    text-decoration: none;
+}
+
+@media (min-width: 800px) {
+    :root
+    {
+        font-size: 0.875em
+    }
+    body 
+    {
+        background-color: lightblue;
+    }
+    .panel.large
+    {
+        font-size: 2.2em;
+    }
+}
+
+@media (min-width: 1440px) {
+    :root
+    {
+        font-size: 1em;
+    }
+
+    body
+    {
+        background-color: beige;
+    }
+}

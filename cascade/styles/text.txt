@@ -1,0 +1,12 @@
+1 in. = 25.4 mm = 2.54cm = 6 pc = 72 pt = 96 px.
+
+
+1 em = the fontsize of the current element
+
+em's best with padding, width, border-radius, margin, element sizing
+
+avoids
+1. id's
+2. !important
+3. ems for font-size
+4. shorthand propeties.

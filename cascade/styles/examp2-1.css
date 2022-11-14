@@ -1,0 +1,43 @@
+body
+{
+    font-size: 16px;
+}
+
+.slogan
+{
+    font-size: 1.2em;
+    padding: 1.2em;
+    background-color: gray;
+}
+
+.butt
+{
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+}
+.boxsmall
+{
+    font-size: 10px;
+}
+
+.boxlarge
+{
+    font-size: 30px;
+}
+
+.padded
+{
+    font-size: 20px;
+    padding: 1em;
+}
+
+ul
+{
+    font-size: .8em;
+}
+
+ul ul
+{
+    font-size: 1em;
+}
