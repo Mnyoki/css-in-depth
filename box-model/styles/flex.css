@@ -1,0 +1,136 @@
+:root
+{
+    font-size: calc(1em + 1vw);
+    box-sizing: border-box;
+}
+
+*, ::before, ::after
+{
+    box-sizing: inherit;
+}
+
+body * + *
+{
+    margin-top: 1em;
+}
+
+html
+{
+    overflow: auto;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    scroll-behavior: auto;
+}
+.intro
+{
+    margin-top: -1em;
+    width: 100%;
+
+    /*background-image: url(/img/dogs.jpg);
+    background-size: cover;
+    overflow: auto;*/
+}
+
+img
+{
+    width: inherit;
+    height: inherit;
+    border-radius: .5em;
+}
+
+header
+{
+    font-size: 1em;
+    color: rgb(23, 197, 23);
+    border-radius: .5em;
+    text-align: center;
+    padding: 1em 1.5em;
+    margin-top: -1em;
+}
+
+.container
+{
+    display: flex;
+}
+
+.main
+{
+    width: 60%;
+    background-color: #fff;
+    border-radius: 0.5em;
+    padding: 1em 1.5em;
+}
+
+.main, p
+{
+    padding-left: .5em;
+}
+
+.sidebar
+{
+    width: 40%;
+    padding: 1em;
+    margin-top: 0;
+    margin-left: 1em;
+    background-color: #fff;
+    border-radius: .5em;
+    /*background-color: #b48a20;*/
+}
+
+.button-link
+{
+    display: block;
+    padding: 0.5em;
+    color: #fff;
+    background-color: rgb(23, 197, 23);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-link + .button-link
+{
+    margin-top: 1.5em;
+}
+
+.sponsor-link
+{
+    display: block;
+    color:rgb(23, 197, 23);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.overflow
+{
+    display: flex;
+    width: 100%;
+}
+
+.box1, .box2, .box3
+{
+    width: 33%;
+    margin-top: 0;
+    margin: .2em;
+    padding: .2em;
+    border-radius: .2em;
+    background-color: #fff;
+}
+
+.info
+{
+    width: 100vw;
+    background-color: #fff;
+    min-height: .5em;
+}
+
+footer
+{
+    text-align: center;
+    padding: .5em;
+    color: rgb(23, 197, 23);
+}
