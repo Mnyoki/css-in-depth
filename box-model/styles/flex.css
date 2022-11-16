@@ -1,6 +1,6 @@
 :root
 {
-    font-size: calc(1em + 1vw);
+    font-size: calc(.9em + .9vw);
     box-sizing: border-box;
 }
 
@@ -78,6 +78,7 @@ header
     margin-left: 1em;
     background-color: #fff;
     border-radius: .5em;
+    border: 2px solid gray;
     /*background-color: #b48a20;*/
 }
 
@@ -90,11 +91,11 @@ header
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+
 }
 
 .button-link + .button-link
 {
-    margin-top: 1.5em;
 }
 
 .sponsor-link
