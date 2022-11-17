@@ -1,0 +1,40 @@
+body
+{
+    background-color: aquamarine;
+}
+
+.sides
+{
+    display: flex;
+}
+
+.aside
+{
+    background-color: aliceblue;
+}
+
+.aside
+{
+    background-color: rgb(98, 126, 126);
+    margin-top: 0;
+    font-size: 1.2em;
+    padding: .5em;
+    flex-basis: 20%;
+}
+
+.box
+{
+    margin: 0 1.5em 0;
+    font-size: 1.2em;
+    flex-basis: 40%;
+    flex-grow: 1;
+    padding: .5em;
+    background:rgb(98, 126, 126);
+}
+
+.column
+{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column-reverse;
+}

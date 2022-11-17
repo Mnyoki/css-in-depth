@@ -1,0 +1,158 @@
+:root
+{
+    --primary-bg: #eee;
+    --secondary-bg: #fff;
+    --primary-color: #000;
+    --secondary-color: #999;
+    --tertiary-color: #666;
+
+    box-sizing: border-box;
+    font-size: calc(0.5em + 0.5vw);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+*,
+::before,
+::after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+   /* background-color: var(--primary-bg);*/
+   background-image: url(/images/leaves.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+   background-blend-mode: color-burn;
+}
+
+body * + *
+{
+    margin-top: 1.5em;
+}
+
+nav
+{
+    margin-top: inherit;
+    list-style: inherit;
+    padding-left: 0;
+}
+
+.nav
+{
+    padding: 1em;
+    margin-top: 0;
+    margin-left: 1em;
+    /*background-color: yellowgreen;*/
+    text-align: right;
+    margin-bottom: 1em;
+    border-radius: .5em;
+}
+
+.nav li 
+{
+    display: inline-block;
+}
+
+.nav a
+{
+    color: var(--secondary-bg);
+    background-color: #e59b59;
+    border-radius: 2px;
+    padding: 1em 1.5em;
+    text-decoration: none;
+}
+
+.nav li:nth-child(1)
+{
+    float: left;
+    margin-top: 1.5em;
+    margin-left: 0;
+}
+
+section
+{
+    text-align: center;
+    /*background-color: var(--secondary-color);*/
+    padding: 1em 1.5em;
+    border-radius: .5em;
+    margin-top: 5em;
+}
+
+img
+{
+    width: 50vmin;
+}
+
+main
+{
+    /*background-color: #666;*/
+    height: 50vmin;
+    display: flex;
+   /* background: var(--tertiary-color);*/
+}
+
+.intro 
+{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: .5em;
+   /* background: var(--secondary-color);*/
+    padding: 1em 1.5em;
+    border-radius: .5em;
+    color: var(--secondary-bg);
+    
+}
+
+.feeds
+{
+    font-size: 1.5em;
+    width: 40%;
+    /*background: var(--secondary-color);*/
+    margin-top: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    border-radius: .5em;
+    display: block;
+}
+
+.button-link
+{
+    display: block;
+    padding: 0.5em;
+    color: #fff;
+    background-color: rgb(23, 197, 23);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+input
+{
+    display: block;
+    padding: .5em;
+    width: inherit;
+}
+
+
+footer
+{
+    padding: 1em 1.5em;
+    text-align: center;
+   /* background-color: #666;*/
+    border-radius: .5em;
+    color: var(--primary-bg);
+    font-weight: 700;
+    font-size: 2em;
+}

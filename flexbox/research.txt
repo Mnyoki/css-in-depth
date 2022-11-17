@@ -1,0 +1,8 @@
+ I strongly
+recommend you automate this process with a tool called Autoprefixer, which is avail￾able at https://github.com/postcss/autoprefixer. 
+
+ Jake Archibald, a developer advocate for Google Chrome, has written about this at
+https://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/. 
+
+ This is an up-to-date list of all known flex￾box browser bugss. Visit it at
+https://github.com/philipwalton/flexbugs. It explains exactly what circum￾stances cause them and, in most cases, offers a workaround to deal with the bug. 
