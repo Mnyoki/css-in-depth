@@ -1,0 +1,4 @@
+https://css-tricks.com/on-object-fit-and-object-position/.
+
+For detailed examples of all these justify/alignment properties, visit http://gridby￾example.com/. This is an excellent resource. It’s a large collection of grid examples
+put together by Rachel Andrew, 
