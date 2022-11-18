@@ -1,0 +1,72 @@
+body
+{
+    background-color: lightblue;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1em 1.5em;
+    background-color: aliceblue;
+}
+
+.lnav > ul > li
+{
+    list-style: none;
+    padding: 1.5em;
+    background-color: antiquewhite;
+    margin:0 1.5em 0 0;
+    margin-top: 2em;
+}
+
+.lnav > ul > li > a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo
+{
+    margin-left: 5em;
+    margin-top: -2em;
+    
+}
+
+.rnav
+{
+    padding: 1em 1.5em;
+    margin-left: auto;
+}
+
+.rnav > ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.rnav > ul > li
+{
+    list-style: none;
+    padding: 1em 1.5em;
+    margin-left: 1em;
+    background-color: antiquewhite;
+    margin-left: 4em;
+}
+
+.rnav > ul > li > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
