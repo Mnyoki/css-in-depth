@@ -1,0 +1,48 @@
+min-width and max-width are the most common ones you’ll use by far. But you
+can also use a number of other types of media features. Here’s some examples:
+
+ (min-height: 20em)—Targets viewports 20 em and taller
+
+ (max-height: 20em)—Targets viewports 20 em and shorter
+
+ (orientation: landscape)—Targets viewports that are wider than they are tall
+
+ (orientation: portrait)—Targets viewports that are taller than they are wide
+
+ (min-resolution: 2dppx)—Targets devices with a screen resolution of 2 dots
+per pixel or higher; targets retina displays
+
+ (max-resolution: 2dppx)—Targets devices with a screen resolution of up to 2
+dots per pixel 
+
+See the MDN documentation at https://developer.mozilla.org/en-US/docs/Web/
+CSS/@media for a complete list of media features.
+
+@media (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi) { … }  --- higher resolution imegaries
+
+ @media print {
+ * {
+ color: black !important;
+ background: none !important;
+ }
+}
+
+breaking points
+
+.title { 
+ ...
+}
+@media (min-width: 35em) { 
+ .title {
+ ...
+ }
+}
+@media (min-width: 50em) { 
+ .title {
+ ...
+ }
+}
+
+ Web designer Brad Frost has compiled a list of responsive patterns that you can
+browse at https://bradfrost.github.io/this-is-responsive/patterns.html. 

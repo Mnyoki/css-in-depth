@@ -1,0 +1,79 @@
+@media (min-width: 35em) {
+    .title h1
+    {
+        font-size: 2.25rem;
+        text-align: center;
+    }
+    
+    .page-header
+    {
+        padding: 1em;
+    }
+
+    .hero
+    {
+        padding: 5em 3em;
+        font-size: 1.2rem;
+    }
+
+    main
+    {
+        padding: 2em 1em;
+    }
+
+    /*humberger menu and its children*/
+
+    .menu-toggle
+    {
+        display: none;
+    }
+
+    .menu-dropdown
+    {
+        display: block;
+        position: static;
+    }
+
+    .nav-menu
+    {
+        display: flex;
+        border: 0;
+        padding: 0.1;
+        background-color: rgb(107, 97, 97);
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav-menu > li
+    {
+       /* flex: 1;*/
+        border: 0;
+        padding: 0.1em;
+    }
+
+    .nav-menu > li + li
+    {
+        border: 0;
+    }
+
+    .nav-menu > li > a
+    {
+        padding: 0.3em;
+        text-align: center;
+    }
+
+    /* three column layout */
+
+    .row
+    {
+        display: flex;
+        margin-left: -.75em;
+        margin-right: -.75em;
+    }
+
+    .column
+    {
+        margin-right: 0.75em;
+        margin-left: 0.75em;
+    }
+}
