@@ -1,0 +1,112 @@
+.container
+{
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 1em auto;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+    background: lime;
+    border-radius: .5em;
+}
+
+.dropdown
+{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-label
+{
+   /* padding: .5em 1.5em;*/
+
+    padding: .5em 2em .5em 1.5em;
+    border: 1px solid #ccc;
+    background-color: #eee;
+}
+
+.dropdown-label::after
+{
+    content: "";
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    border: 0.4em solid;
+    border-color: black transparent transparent
+}
+
+.dropdown:hover .dropdown-label::after
+{
+    top: 0.7em;
+    border-color: transparent transparent black;
+}
+
+.dropdown-menu
+{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 2.1em;
+    min-width: 100%;
+    background-color: #eee;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+
+.submenu
+{
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+    border: 1px solid #999;
+    z-index: 2;
+}
+
+.submenu > li + li
+{
+    border-top: 10x solid #999;
+}
+
+.submenu > li > a
+{
+    display: block;
+    padding: .5em 1.5em;
+    background-color: #eee;
+    color: #369;
+    text-decoration: none;
+}
+
+.submenu > li > a:hover
+{
+    background-color: #fff;
+}
+
+.col-main
+{
+    flex: 1 80%;
+}
+
+.col-sidebar
+{
+    flex: 20%;
+}
+
+.affix
+{
+    position: sticky;
+    top: 1em;
+}
+
+aside
+{
+    z-index: 0;
+}

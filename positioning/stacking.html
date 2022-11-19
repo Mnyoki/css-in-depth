@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacking Context</title>
+
+    <link rel="stylesheet" href="/styles/stacking.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box one positioned">
+            <p>one &comma; I here stacking context is way different to block formating context &quest;</p>
+            <div class="absolute">NESTED &backepsilon; Dummy questions &starf;</div>
+        </div>
+
+        <div class="box two positioned">
+            <p>&quot; yeah &colon; stacking context deals with which elements are in front of other elements &quot;</p>
+        </div>
+
+        <div class="box three">
+            <span> &quot; while block formating context deals with document flow and whether or not elements will overlap &quot;</span>
+        </div>
+    </div>
+</body>
+</html>

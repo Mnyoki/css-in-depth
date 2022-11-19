@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop up Dialog</title>
+    <link rel="stylesheet" href="/styles/dialog.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <header class="top-banner">
+            <div class="top-banner-inner">
+                <p>Find what's going on at Wombat Coffee each month. Sign up for our newsletter:</p>
+
+                <button id="open">Sign up</button>
+            </div>
+        </header>
+
+        <div class="modal" id="modal">
+            <div class="modal-backdrop"></div>
+            <div class="modal-body">
+                <button class="modal-close" id="close">Close</button>
+                <h2>Wombat Newsletter</h2>
+                <p>Sign up for our monthly newsletter. No spam. We promise</p>  
+
+                <form action="#">
+                    <p>
+                        <label for="Email">Email Address</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+
+                    <p><button type="submit">Submit</button></p>
+                </form>
+            </div>
+        </div>
+        <div class="greatings">
+            <h1>Learning is a never ending journey</h1>
+            <p>Believe me when i tell you that you have everything you need to get you out of that shit hole.</p>
+        </div>
+
+    </div>
+
+    <script src="/scritps/osc.js"></script>
+    <script src="/scritps/dialog.js"></script>
+</body>
+</html>

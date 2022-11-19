@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop up Dialog</title>
+
+    <link rel="stylesheet" href="/styles/sticky.css">
+    <link rel="stylesheet" href="/styles/dialog.css">
+
+</head>
+
+<body>
+
+    < class="container">
+
+        <header class="top-banner">
+            <div class="top-banner-inner">
+                <p>Find what's going on at Wombat Coffee each month. Sign up for our newsletter:
+
+                <button id="open">Sign up</button>
+            </p>
+            </div>
+        </header>
+
+        <div class="modal" id="modal">
+            <div class="modal-backdrop"></div>
+            <div class="modal-body">
+                <button class="modal-close" id="close">Close</button>
+                <h2>Wombat Newsletter</h2>
+                <p>Sign up for our monthly newsletter. No spam. We promise</p>
+
+                <form action="#">
+                    <p>
+                        <label for="Email">Email Address</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+
+                    <p><button type="submit">Submit</button></p>
+                </form>
+            </div>
+        </div>
+        <main class="col-main">
+            <nav>
+                <div class="dropdown">
+                    <div class="dropdown-label" id="mainMenu">Main Menu</div> <!-- should be added a clickable event-->
+                    <div class="dropdown-menu" id="dropdownMenu">
+                        <ul class="submenu">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Sponsers</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <h2>The power of a subconcious mind.</h2>
+        </main>
+
+        <aside class="col-sidebar">
+            <div class="affix">
+                <ul class="submenu">
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Feeds</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </div>
+        </aside>
+
+
+        <div class="greatings">
+            <h1>Learning is a never ending journey</h1>
+            <p>Believe me when i tell you that you have everything you need to get you out of that shit hole.</p>
+        </div>
+
+    </div>
+
+    <script src="/scritps/osc.js"></script>
+    <script src="/scritps/dialog.js"></script>
+</body>
+
+</html>
