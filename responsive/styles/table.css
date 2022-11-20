@@ -1,0 +1,15 @@
+:root
+{
+    font-size: calc(1em + 0.5vw);
+}
+
+table
+{
+    width: 100%;
+    display: table-cell;
+}
+
+@media (max-width: 30em)
+{
+ta
+}

@@ -46,3 +46,29 @@ breaking points
 
  Web designer Brad Frost has compiled a list of responsive patterns that you can
 browse at https://bradfrost.github.io/this-is-responsive/patterns.html. 
+
+nb//
+ Sometimes, you won’t even need the media queries, as natural line wrapping will
+take care of that for you. Flexbox layouts using flex-wrap: wrap and a reasonable
+flex-basis is an excellent way to do this. Similarly, a grid layout with auto-fit or
+auto-fill grid columns will determine how many items will fit in a row before wrap￾ping to a new one. You could also use inline-block elements, though in that case, they
+won’t grow to fill the width of the container.
+
+
+image compressor
+
+ Use the Save for web
+option in your image editor, which will greatly reduce the image’s file size, or use
+another image compression tool such as https://tinypng.com/
+
+
+<img alt="A white coffee mug on a bed of coffee beans"
+ src="coffee-beans-small.jpg" 
+ srcset="coffee-beans-small.jpg 560w, 
+ coffee-beans-medium.jpg 800w, 
+ coffee-beans.jpg 1280w" 
+/>
+
+
+For a closer look at responsive images, visit https://jakearchibald.com/2015/anat￾omy-of-responsive-images/. This article covers a few other useful options, such as
+adjusting the display size based on which image is loaded

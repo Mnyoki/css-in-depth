@@ -1,0 +1,28 @@
+@media (min-width: 50em) {
+
+    :root
+    {
+        font-size: 1.25em;
+    }
+
+    .page-header
+    {
+        padding: 1em 4em;
+    }
+
+    .hero
+    {
+        padding: 7em 6em;;
+    }
+
+    main
+    {
+        padding: 2em 4em;
+    }
+
+    .nav-menu
+    {
+        padding: 0 4em;
+    }
+    
+}
