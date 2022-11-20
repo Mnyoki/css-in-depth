@@ -1,0 +1,19 @@
+This is a small stylesheet that
+helps even out discrepancies among the user agent stylesheets of various
+browsers. You can download it from https://necolas.github.io/normalize.css/.
+Add this before your stylesheet as part of your base styles.
+
+ So far, you’ve created a Message, a Media, a Dropdown, and a Menu module. Some
+other examples of good module names include panel, alert, collapsible-section, and
+form-control. 
+
+ CSS methodologies
+
+  OOCSS—Object-oriented CSS, created by Nicole Sullivan:
+https://github.com/stubbornella/oocss/wiki
+ SMACSS—Scalable and Modular Architecture for CSS, created by Jonathan Snook:
+https://smacss.com/
+ BEM—Block, Element, Modifier, developed at Yandex:
+https://en.bem.info/methodology/
+ ITCSS—Inverted Triangle CSS, created by Harry Roberts:
+www.creativebloq.com/web-design/manage-large-css-projects-itcss-101517528

@@ -1,0 +1,36 @@
+.media
+{
+    padding: 1.5em;
+    background-color: #eee;
+    border-radius: 0.5em;
+}
+
+.media::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.media__image
+{
+    float: left;
+    margin-right: 1.5em;
+}
+
+.media--right .media__image
+{
+    float: right;
+}
+
+.media__body
+{
+    overflow: auto;
+    margin-top: 0;
+}
+
+.media__title
+{
+    margin-top: 0;
+    color: lime;
+}

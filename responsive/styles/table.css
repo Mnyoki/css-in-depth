@@ -11,5 +11,18 @@ table
 
 @media (max-width: 30em)
 {
-ta
+table, thead, tbody, tr, th, td
+{
+    display: block;
+}
+thead tr
+{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+tr
+{
+    margin-bottom: 1em;
+}
 }
