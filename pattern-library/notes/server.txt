@@ -1,0 +1,7 @@
+ Because you’re opening the pattern library files directly from disc, you may notice
+the Overview link in the table of contents still doesn’t work. This is because KSS links
+it to the url ./ rather than to index.html. To make this work, you’ll need to serve the
+pattern library via an HTTP server so the ./ url will resolve to index.html in the
+browser. I’ll leave this for you to do, depending on the toolset you’re most familiar
+with. If you’re unsure where to start, try the npm package http-server (https://www
+.npmjs.com/package/http-server).
