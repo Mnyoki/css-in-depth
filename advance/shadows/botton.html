@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadows</title>
+    <link rel="stylesheet" href="/styles/button.css">
+    <link rel="stylesheet" href="/styles/sign-up.css">
+    <link rel="stylesheet" href="/styles/button-body.css">
+    <link rel="stylesheet" href="/styles/footer.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <button class="button button--home">
+                    <a href="/botton.html" class="link">Home</a>
+                </button>
+                <button class="button button--about">
+                    <a href="/test.html" class="link">About</a>
+                </button>
+                <button class="button button--news">
+                    <a href="flat.html" class="link">News</a>
+                </button>
+                <button class="button button--features">
+                    <a href="mordern.html" class="link">Feature</a>
+                </button>
+                <button class="button button--signup" id="signUp">
+                    <a href="#" class="link">Sign up now</a>
+                </button>
+                <button class="button button--login" id="login">
+                    <a href="#" class="link">Login</a>
+                </button>
+            </nav>
+            <div class="signUp">
+                
+                <div class="modal" id="modal">
+                    <div class="modal-backdrop"></div>
+
+                    <div class="modal-body">
+                        <button class="modal-close button" id="close">Close</button>
+                        <h2>Glena</h2>
+                        <p>Sign up!</p>
+
+                        <form action="signup.php" method="post">
+                            <p>
+                                <label for="fname">First Name</label>
+                                <input type="text" name="fname" required>
+                            </p>
+
+                            <p>
+                                <label for="lname">Last Name</label>
+                                <input type="text" name="lname">
+                            </p>
+
+                            <p>
+                                <label for="uname">User Name</label>
+                                <input type="text" name="uname">
+                            </p>
+
+                            <p>
+                                <label for="email">Email</label>
+                                <input type="email" name="email">
+                            </p>
+
+                            <p>
+                                <label for="password">Password</label>
+                                <input type="password" name="passord">
+                            </p>
+
+                            <p>
+                                <label for="re-password">Password</label>
+                                <input type="password" name="re-passord">
+                            </p>
+
+                            <p>
+                                <button type="submit" class="button button--submit">Submit</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="modal modalLogin" id="modalLogin">
+                    <div class="modal-backdrop"></div>
+
+                    <div class="modal-body">
+                        <button class="modal-close button" id="closeLog">Close</button>
+                        <h2>Glena</h2>
+                        <p>Login!</p>
+
+                        <form action="signup.php" method="post">
+
+                            <p>
+                                <label for="email">Email</label>
+                                <input type="email" name="email">
+                            </p>
+
+                            <p>
+                                <label for="password">Password</label>
+                                <input type="password" name="passord">
+                            </p>
+
+                            <p>
+                                <button type="submit" class="button button--login">Login</button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </header>
+
+        <div class="body">
+            <section>
+                <h1>Vulnerability...</h1>
+            </section>
+
+            <div class="blend blend1">
+            </div>
+
+            <div class="blend blend2">
+            </div>
+
+            <div class="blend blend3">
+            </div>
+
+        </div>
+
+        <footer>copyright &copy; munyoki</footer>
+    </div>
+
+    <script src="/scripts/osc.js"></script>
+    <script src="/scripts/sign-up.js"></script>
+    
+</body>
+</html>

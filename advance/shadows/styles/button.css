@@ -1,0 +1,116 @@
+:root
+{
+    font-size: calc(0.5em + 0.5vw);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: inherit;
+}
+
+html
+{
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: rgb(63, 58, 58);
+    background-image: url(/images/old-site.jpg), url(/images/old-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.container
+{
+    max-width: 95vw;
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1em;
+}
+
+.button
+{
+    float: right;
+    padding: .8em;
+    border: 0;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    background-image: linear-gradient(to bottom, #57b, #148);
+}
+
+.button--home
+{
+    margin-right: auto;
+}
+
+nav > .button + .button
+{
+    margin-left: .5em;
+}
+
+.link
+{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.button:active
+{
+    box-shadow: inset 0 0 0.5 #124,
+                inset 0 0.5 1em rgba(0, 0 , 0, 0.4)
+}
+
+.link:hover
+{
+    text-decoration: underline;
+}
+
+a:link
+{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: rgb(214, 241, 222);
+}
+
+a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+a:active
+{
+    color: red;
+}
+
+
+@media (min-width:  50em) {
+    .container
+    {
+        max-width: 100vw;
+    }
+
+    .blend
+    {
+        background-position: center;
+    }
+}
