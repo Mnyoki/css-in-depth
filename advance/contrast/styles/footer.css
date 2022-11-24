@@ -1,0 +1,10 @@
+.page-footer
+{
+    padding: 1.5em;
+    display: block;
+}
+
+.page-footer__inner
+{
+    text-align: center;
+}
