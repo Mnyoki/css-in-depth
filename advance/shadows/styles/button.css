@@ -45,9 +45,9 @@ body
 .button
 {
     float: right;
-    padding: .8em;
+    padding: .8rem;
     border: 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-radius: 0.5em;
     background-image: linear-gradient(to bottom, #57b, #148);
 }
@@ -67,6 +67,8 @@ nav > .button + .button
     text-decoration: none;
     font-size: 1rem;
     color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
 }
 
 .button:active

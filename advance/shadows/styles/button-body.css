@@ -2,9 +2,13 @@
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(5 auto);
+    grid-template-rows: repeat(6 auto);
     grid-gap: .8em;
     color: white;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+
 }
 
 section
@@ -14,7 +18,7 @@ section
     grid-row: 1/2;
     font-size: 1.5em;
     padding: 1em;
-    height: 35em;
+    height: 23.85em;
     position: inherit;
     display: grid;
     justify-content: center;
@@ -50,6 +54,7 @@ section > h1
     grid-row: 2/3;
     background-image: url(/images/puppy.jpg), url(/images/puppy.jpg);
     background-blend-mode: multiply;
+    margin-top: 1.5em;
 }
 
 .blend2
@@ -59,12 +64,31 @@ section > h1
     background-image: url(/images/sunset.jpg), url(/images/sunset.jpg);
     background-color: #148;
     background-blend-mode: luminosity;
+    margin-top: 1.5em;
 }
+
+.font
+{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+h1, h2, h3, h4
+{
+    font-family: serif;
+    letter-spacing: 0.03em;
+}
+
+p
+{
+    font-family: sans-serif;
+}
+
 
 .blend3
 {
   grid-column: 1/5;
-  grid-row: 3/5;
+  grid-row: 4/6;
   background-image: url(/images/wolf.jpg), url(/images/wolf.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -77,4 +101,13 @@ section > h1
         background-position: center;
         height: 35em;
     }
+}
+
+@media (max-width: 50em) {
+    .font
+    {
+        grid-column: 1/5;
+        grid-row: 3/4;
+    }
+    
 }

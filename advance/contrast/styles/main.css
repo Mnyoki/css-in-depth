@@ -45,8 +45,11 @@ p{
 .tag-list > li
 {
     display: inline;
-    padding: 0.3rem 0.5rem;
+    /*padding: 0.3rem 0.5rem;
     font-size: 0.8rem;
+    */
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
     border-radius: 0.2rem;
     background-color: var(--light-gray);
     line-height: 2.6;

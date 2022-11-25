@@ -1,2 +1,0 @@
-natalie - color-theory
-css contrast checkers - contrast-ratio
