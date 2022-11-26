@@ -1,0 +1,78 @@
+body
+{
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: .1s;
+    transition-timing-function: cubic-bezier(1,0,0,1);
+}
+
+.button
+{
+    font-size: 1rem;
+    padding: .3em 1em;
+    background-color: hsla(180, 50%, 50%, 0.5);
+    color: black;
+    border: 0;
+    
+}
+
+.button:hover
+{
+    font-size: 1.2rem;
+    background-color: hsla(0, 50%, 50%, 0.9);
+    color: white;
+    border-radius: 1em;
+    text-transform: uppercase;
+}
+
+.test1
+{
+    transition: inherit;
+    text-transform: capitalize;
+}
+
+.container
+{
+    height: 50vmin;
+    max-width: 50vmin;
+    background-color: hsla(180, 50%, 50%, 0.5);
+    translate: 50%;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+
+.box
+{
+    position: relative;
+    transform: translate(32%, 32%);
+    height: 30vmin;
+    width: 30vmin;
+    background-color: hsla(0, 50%, 50%, 0.2);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: steps(3, start);
+    
+}
+
+center
+{
+    margin-left: 1.5em;
+}
+
+.container:hover .box
+{
+    left: 30em;
+    background-color: hsla(60, 50%, 50%, 0.9);
+}
+
+
+
